@@ -1,5 +1,5 @@
 # dockerfile-uts-server
-Dockerfile for uts-server - a micro RFC 3161 Time-Stamp server written in C
+Dockerfile for [uts-server](https://github.com/kakwa/uts-server) - a micro RFC 3161 Time-Stamp server written in C
 
 This Dockerfile is a multi-stage build in order to keep the size of the final image as small as possible.
 
