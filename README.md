@@ -11,13 +11,13 @@ This container in its default settings run `uts-server` with test certs and in d
 ## Running with default (test) settings:
 
 ```
-docker run -d -p 2020:2020 uts-server
+docker run -d -p 2020:2020 nicholasamorim/uts-server
 ```
 
 ## Running with your own configuration file:
 
 ```
-docker run -d -v /path/to/uts/conf/:/etc/uts-server -p 2020:2020 uts-server -c /etc/uts-server/uts.conf
+docker run -d -v /path/to/uts/conf/:/etc/uts-server -p 2020:2020 nicholasamorim/uts-server -c /etc/uts-server/uts.conf
 ```
 
 You may pass any number of parameters after `uts-server`, but the only other useful parameter is `-D` which will run `uts-server` in development mode.
